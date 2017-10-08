@@ -1,0 +1,20 @@
+{
+	"exclude": {
+		"patterns": [
+			
+		]
+	},
+	"servers": {
+		"s1": {
+			"user": "",
+			"host": "",
+			"webroot": ""
+		},
+		"live": {
+			"user": "",
+			"host": "",
+			"webroot": "",
+			"branch": "remotes/origin/master"
+		}
+	}
+}
