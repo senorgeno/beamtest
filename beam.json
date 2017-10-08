@@ -3,6 +3,14 @@
 		"patterns": [
 		]
 	},
+	"commands": [
+		{
+			"command": "composer install --prefer-dist --no-dev",
+			"location": "local",
+			"phase": "pre",
+			"required": true
+		}
+	],
 	"servers": {
 		"s1": {
 			"user": "",
@@ -13,7 +21,7 @@
 			"user": "root",
 			"host": "138.68.31.56",
 			"webroot": "/var/www/html",
-			"branch": "remotes/origin/master"
+			"branch": "master"
 		}
 	}
 }
