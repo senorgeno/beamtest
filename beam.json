@@ -1,7 +1,6 @@
 {
 	"exclude": {
 		"patterns": [
-			
 		]
 	},
 	"servers": {
@@ -11,9 +10,9 @@
 			"webroot": ""
 		},
 		"live": {
-			"user": "",
-			"host": "",
-			"webroot": "",
+			"user": "root",
+			"host": "138.68.31.56",
+			"webroot": "/var/www/html",
 			"branch": "remotes/origin/master"
 		}
 	}
